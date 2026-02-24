@@ -26,6 +26,7 @@ const schemes = [
   'petalmaps',
   'sygic',
   'here-route',
+  'organicmaps',
 ];
 
 const intents = ['geo', 'waze'].map((app) => {

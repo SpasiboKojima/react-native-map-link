@@ -36,6 +36,7 @@ export const generatePrefixes = ({
     sygic: 'com.sygic.aura://',
     here: 'here-route://',
     tomtomgo: 'tomtomgo://',
+    organicmaps: 'om://',
   };
 };
 
@@ -74,6 +75,7 @@ export const generateTitles = (
     sygic: 'Sygic',
     here: 'Here We Go',
     tomtomgo: 'TomTom GO',
+    organicmaps: 'Organic Maps',
     ...(titles || {}),
   };
 };
@@ -104,6 +106,7 @@ export const icons: Record<string, ImageRequireSource> = {
   sygic: require('./images/sygic.png'),
   here: require('./images/here.png'),
   tomtomgo: require('./images/tomtomgo.png'),
+  organicmaps: require('./images/organic-maps.png'),
 };
 
 export const appKeys: string[] = Object.keys(icons);
